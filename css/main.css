@@ -1,0 +1,42 @@
+/* main.css */
+
+@font-face {
+    font-family: 'Open Sans';
+    src:  url('OpenSans-Regular.ttf') format('truetype');
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Source Sans Pro', 'Arial';
+}
+
+.main-content {
+    height: 100%;
+    text-align: center;
+    color: #424242;
+}
+
+.vertical-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    margin: 0;
+}
+
+.kaadman {
+    font-size: calc(1em + 1vw);
+}
+
+/*
+ * Responsive Web Rules
+ */
+
+ @media only screen and (max-width: 50rem) {
+    .kaadman {
+        font-size: 1rem;
+    }
+}
+
